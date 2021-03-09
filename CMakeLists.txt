@@ -23,6 +23,5 @@ target_compile_definitions(${PROJECT_NAME} PUBLIC
   WINDOW_WIDTH=${WINDOW_WIDTH}
   WINDOW_HEIGHT=${WINDOW_HEIGHT}
   )
-
 # Dependency들이 먼저 build 될 수 있게 관계 설정
 add_dependencies(${PROJECT_NAME} ${DEP_LIST})
